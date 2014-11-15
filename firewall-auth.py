@@ -81,7 +81,7 @@ def logged_in_func(keepaliveurl):
   """
   logger = logging.getLogger("FirewallLogger")
   ERROR_RETRY_SECS = 5
-  LOGGED_IN_SECS = 200
+  LOGGED_IN_SECS = 550
   try:
     keep_alive(keepaliveurl)
   except httplib.BadStatusLine:
